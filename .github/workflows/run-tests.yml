@@ -22,10 +22,10 @@ jobs:
           node-version: "18" # Specify the Node.js version you want to use
 
       - name: Install dependencies
-        run: npm install
+        run: cd functions && npm install
 
       - name: Run tests
-        run: npm test
+        run: cd functions && npm test
 
       # Optional: Upload test results if needed
       # - name: Upload test results
