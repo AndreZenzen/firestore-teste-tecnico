@@ -1,4 +1,4 @@
-import ValidationError from "../sharred/validationError";
+import ValidationError from "../shared/validationError";
 
 export class Record {
   constructor(public name: string, public incrementId?: number) {

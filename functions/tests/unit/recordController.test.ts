@@ -1,6 +1,6 @@
 import { Request, Response } from "firebase-functions";
 import { RecordController } from "../../src/interfaces/recordController";
-import ValidationError from "../../src/sharred/validationError";
+import ValidationError from "../../src/shared/validationError";
 
 const createRecordServiceMock = {
   execute: jest.fn(),

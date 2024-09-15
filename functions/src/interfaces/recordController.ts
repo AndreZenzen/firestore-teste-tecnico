@@ -1,7 +1,7 @@
 import { Request, Response } from "firebase-functions";
 import { CreateRecordService } from "../application/createRecordService";
 import { ILogger } from "../domain/ILogger";
-import ValidationError from "../sharred/validationError";
+import ValidationError from "../shared/validationError";
 
 export class RecordController {
   constructor(

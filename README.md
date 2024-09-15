@@ -48,6 +48,8 @@ Este projeto foi desenvolvido utilizando **Firebase Functions** e **Firestore** 
     - firebaseRepository.ts     # Implementação do repositório Firebase
   /interfaces
     - recordController.ts       # Função HTTP para criar registros
+  /shared
+    - validationError.ts        # Classe para erro de validação
 /tests
   /unit # Testes de unidade com jest
   /integration # Testes de integracão com Jest
